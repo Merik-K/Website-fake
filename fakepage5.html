@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="Pay.css">
+</head>
+
+<body>
+
+    <h1>Checkout</h1>
+    <form style="text-align:center">
+        <fieldset>
+            <fieldset class="">
+                <legend style="font-size:25px ;">Shipping Information</legend>
+
+                <p>
+                    <input type="text" value="" class="field-left" placeholder="Name">
+                    <br>
+                    <input type="text" value="" class="field-left" placeholder="Email">
+                    <br>
+                    <input type="text" value="" class="field-left" placeholder="Address">
+                    <br>
+                </p>
+            </fieldset>
+    </form>
+    <br>
+
+    <form style="text-align:center">
+        <fieldset>
+            <legend style="font-size:25px ;">Payment Information:</legend>
+            <br>
+            <select>
+                <option value="Visa"> Visa
+                </option>
+                <option value="MasterCard"> MasterCard
+                </option>
+                <option value="American Express"> American Express
+                </option>
+                <option value="Discover"> Discover
+                </option>
+                <option value="Paypal"> Paypal
+                </option>
+            </select>
+            <br>
+            <input type="text" value="" class="field left" placeholder="Card Number">
+            <br>
+            <label for="date">Enter Expiration Date:</label> <br>
+            <input type="date" id="mm/dd/yy" required>
+            <br>
+            <button type=”submit”>Submit Information</button>
+        </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
