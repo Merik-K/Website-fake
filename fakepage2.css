@@ -1,0 +1,22 @@
+body {
+    background: url(backgroundimg3.png);
+    background-size:cover;
+    background-repeat: no-repeat
+}
+p {
+    font-size: xx-large;
+    background-color: aliceblue;
+    
+}
+center{
+    background-color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    color: black
+}
+img{
+    max-height: 350px;
+        max-width: 500px;
+        width: 220px;
+        height: 220px;
+}
