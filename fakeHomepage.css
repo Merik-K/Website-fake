@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    ". . Logo title . ."
+    "Nav Nav Nav Nav Nav Nav"
+    "img1 img1 img2 img2 img3 img3";
+}
+.NavBar{
+    background-color: lightgrey;
+    overflow: hidden;
+    grid-area: Nav;
+}
+.NavBar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    width: 100px;
+    height: auto;
+    grid-area: Logo;
+    justify-self: end;
+}
+.title{
+    grid-area: title;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
