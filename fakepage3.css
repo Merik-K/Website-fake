@@ -1,0 +1,102 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+        ". . Logo title . ."
+        "Nav Nav Nav Nav Nav Nav"
+        "img1 img1 img2 img2 img3 img3";
+}
+
+.NavBar {
+    background-color: lightgrey;
+    overflow: hidden;
+    grid-area: Nav;
+}
+
+.NavBar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Logo {
+    position: relative;
+    height: auto;
+    width: 80px;
+    left: -400px;
+    bottom: 1027px;
+
+}
+
+.title {
+    position: relative;
+    left: 100px;
+}
+
+.img1 {
+    position: relative;
+    height: auto;
+    width: 450px;
+    left: 50px;
+}
+
+.img2 {
+    position: relative;
+    height: auto;
+    width: 750px;
+    left: 250px;
+}
+
+
+
+.img4 {
+    position: relative;
+    height: auto;
+    width: 400px;
+    left: 500px;
+}
+
+.sell1 {
+    position: relative;
+    bottom: 530px;
+    left: 215px;
+}
+
+.sell2 {
+    position: relative;
+    bottom: 530px;
+    left: 1015px;
+}
+
+.sell3 {
+    position: relative;
+    bottom: 80px;
+    left: 600px;
+}
+
+.desc1 {
+    position: relative;
+    bottom: 630px;
+    left: 120px;
+
+}
+
+.desc2 {
+    position: relative;
+    bottom: 625px;
+    left: 780px;
+}
+
+.desc3 {
+    position: relative;
+    bottom: 165px;
+    left: 215px;
+}
