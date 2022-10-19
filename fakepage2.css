@@ -1,15 +1,16 @@
 body {
-    background: url(backgroundimg3.png);
+    background: url(endless-constellation.svg);
     background-size:cover;
     background-repeat: no-repeat
 }
 p {
     font-size: xx-large;
-    background-color: aliceblue;
+    background-color: #715842;
     
 }
-center{
-    background-color:aliceblue;
+ center {
+    
+    background-color: #715842;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:x-large;
     color: black
@@ -19,4 +20,37 @@ img{
         max-width: 500px;
         width: 220px;
         height: 220px;
+}
+.img7{
+  grid-area: img7;
+}
+.img8{
+grid-area: img8;
+}
+.img9{
+grid-area: img9;
+}
+
+.img10{
+    grid-area: img10;
+}
+.img11{
+    grid-area: img11;
+}
+.img12{
+    grid-area: img12;
+}
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+    ""
+}
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+    ""
 }
