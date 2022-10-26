@@ -5,6 +5,7 @@
     grid-template-areas: 
     ". . title title . ."
     "Nav Nav Nav Nav Nav Nav"
+    "tile tile tile tile tile tile"
     "logo logo logo logo logo logo"
     ". des des des des .";
 }
@@ -22,9 +23,13 @@
     text-decoration: none;
     justify-content: center;
 }
-.NavBar .searchbar{
+.NavBar input[type=text]{
     float: right;
-    padding: 16px;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -70,3 +75,17 @@ body{
     text-align: center;
     font-size: larger;
 }
+.line{
+    background-color: black;
+    border: none;
+    height: 2px;
+}
+li{
+    list-style: none;
+    align-items: flex-start;
+}
+.tile{
+    grid-area: tile;
+    text-align: center;
+}
+
