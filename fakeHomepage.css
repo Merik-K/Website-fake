@@ -44,11 +44,14 @@ body{
     grid-area: logo;
     justify-self: center;
 }
-.title{
-    grid-area: title;
+.title {
+    display: flex;
     justify-self: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     size: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .img1{
     grid-area: img1;
